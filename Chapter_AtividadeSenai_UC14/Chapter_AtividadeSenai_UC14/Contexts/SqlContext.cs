@@ -15,7 +15,7 @@ namespace Chapter_AtividadeSenai_UC14.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Dara Source = DESKTOP-43EVB7H\\SQLEXPRESS; initial catalog = Chapter; Integrated Security = true; TrustServerCertificate=True");
+                optionsBuilder.UseSqlServer("Data Source = DESKTOP-43EVB7H\\SQLEXPRESS; initial catalog = Chapter; Integrated Security = true; TrustServerCertificate=True");
                // optionsBuilder.UseSqlServer("Data Source = DESKTOP-43EVB7H\\SQLEXPRESS; initial catalog = Chapter; Integrated Security = true");
             }
         }
