@@ -49,6 +49,8 @@ namespace Chapter_AtividadeSenai_UC14.Repositories
                 livroBuscado.Disponivel = l.Disponivel;
 
                 _context.Livros.Update(livroBuscado);
+
+                _context.SaveChanges();
             }
         }
     }  

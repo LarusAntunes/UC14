@@ -20,5 +20,7 @@ namespace Chapter_AtividadeSenai_UC14.Contexts
             }
         }
         public DbSet<Livro> Livros { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

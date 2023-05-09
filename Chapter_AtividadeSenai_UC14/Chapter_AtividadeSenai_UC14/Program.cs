@@ -1,4 +1,5 @@
 using Chapter_AtividadeSenai_UC14.Contexts;
+using Chapter_AtividadeSenai_UC14.Interfaces;
 using Chapter_AtividadeSenai_UC14.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<Sqlcontext, Sqlcontext>();
 builder.Services.AddTransient<LivroRepository, LivroRepository>();
+builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
