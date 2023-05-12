@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PqzLCuoNR+CWmbl3EreJNhV21VVJKZfnWuCMJ0x49V3dXfg1WzRp+glCePkxqEAZ/esrrE6QTyusonV9/sGcpw==",
+  "dgSpecHash": "y85wC35/Q197qhI6ueHNiUiiZSiqaiBL/lT5EqgDxerq1hQkiMAr/wwY4RGyEV+MVJ96RdP4MOoPn1YqCc08gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\Curso Senai\\UC-14\\Atividade\\Chapter_AtividadeSenai_UC14\\Chapter_AtividadeSenai_UC14\\Chapter_AtividadeSenai_UC14.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.16\\microsoft.aspnetcore.authentication.jwtbearer.6.0.16.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

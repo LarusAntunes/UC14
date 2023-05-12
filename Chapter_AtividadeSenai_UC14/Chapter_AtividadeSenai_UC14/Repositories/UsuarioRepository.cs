@@ -58,7 +58,7 @@ namespace Chapter_AtividadeSenai_UC14.Repositories
 
         public Usuario Login(string email, string senha)
         {
-            throw new NotImplementedException();
+            return _context.Usuarios.First(u => u.Email == email && u.Senha == senha);
         }
     }
 }
